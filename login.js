@@ -5,7 +5,7 @@ let pass=document.getElementById("password").value;
 
 if(user=="admin" && pass=="admin"){
 
-window.location="pages/dashboard.html";
+window.location="dashboard.html";
 
 }else{
 
