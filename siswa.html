@@ -1,27 +1,41 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-
 <title>Data Siswa</title>
-
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+<div class="menu">
+
 <h2>Data Siswa</h2>
 
-<input type="text" id="nama">
+<input type="text" placeholder="Cari Nama">
 
-<button onclick="tambah()">Tambah</button>
+<table>
 
-<input type="text" id="cari" onkeyup="cari()" placeholder="Cari">
+<tr>
+<th>ID</th>
+<th>Nama</th>
+<th>Kelas</th>
+</tr>
 
-<ul id="list"></ul>
+<tr>
+<td>1</td>
+<td>Andi</td>
+<td>X RPL</td>
+</tr>
 
-<script src="../js/siswa.js"></script>
+<tr>
+<td>2</td>
+<td>Sinta</td>
+<td>X TKJ</td>
+</tr>
+
+</table>
+
+</div>
 
 </body>
-
 </html>
