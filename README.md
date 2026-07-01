@@ -1,6 +1,5 @@
+
 \# Aplikasi Absensi Sekolah
-
-
 
 \## Deskripsi
 
